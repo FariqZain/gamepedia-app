@@ -9,27 +9,32 @@ Pastikan Anda sudah menginstal **Node.js** di komputer sebelum mengikuti langkah
    ```bash
    cd backend
 Install modul pendukung (express & cors):
-Bash
-npm install
+   ```bash
+   cd backend
+   ```
 Jalankan server backend:
-Bash
-npm start
+   ```bash
+   npm start
+   ```
 Server akan aktif di http://localhost:5000
 
 Tahap B: Menjalankan Interface Frontend (React)
 Buka jendela terminal atau Command Prompt baru lainnya (jangan tutup terminal backend).
 
 Masuk ke folder frontend:
-Bash
-cd frontend
+   ```bash
+   cd frontend
+   ```
 Install seluruh dependensi React dan Tailwind CSS:
 
-Bash
-npm install
+   ```bash
+   npm install
+   ```
 Jalankan server lokal frontend:
 
-Bash
-npm run dev
+   ```bash
+   npm run dev
+   ```
 Buka browser Anda dan akses alamat yang tertera di terminal, biasanya: http://localhost:5173/
 
 🛠️ 2. Penjelasan Fungsi Struktur Berkas & Kode Utama
